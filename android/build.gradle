@@ -17,5 +17,5 @@ buildscript {
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin")
     }
 }
-
+gradle.startParameter.warningMode = WarningMode.All
 apply plugin: "com.facebook.react.rootproject"
